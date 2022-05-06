@@ -1,0 +1,33 @@
+.file-list {
+  flex: 1 1 auto;
+  background-color: rgb(170, 170, 170);
+  overflow: hidden;
+
+  &__item {
+    // background-color: aliceblue;
+    list-style: none;
+    padding-left: .4em;
+    font-size: small;
+    color:rgb(63, 63, 63);
+    
+
+    &:hover {
+        background-color: lightblue;
+        color: black;
+        cursor: pointer;
+    }
+
+    // &:nth-child(odd) { 
+    //     background: red; 
+        
+    //     &:hover {
+    //         background-color: darkred;
+    //     }
+    // }
+  }
+}
+
+.selected {
+  background-color: blue;
+  color: white;
+}

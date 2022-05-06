@@ -1,0 +1,33 @@
+.navigation {
+  background-color: white;
+  width: 100vw;
+  height: 7em;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  flex: 0 1 auto;
+
+  &__tab {
+    display: none;
+  }
+
+  &__label {
+    background-color: aqua;
+    height: 100%;
+    width: 10em;
+    margin: 1.5em 0 0 1em;
+    border-radius: 1em;
+    padding-top: 0.5em;
+    padding-left: 0.5em;
+    box-shadow: 0px 0px 24px -3px black;
+
+    &:hover {
+        color: red;
+    }
+  }
+}
+
+.checked {
+  box-shadow: 0px 0px 24px 3px black;
+  margin: 1em 1em 1em 2em;
+}
